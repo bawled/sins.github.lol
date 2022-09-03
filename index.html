@@ -20,6 +20,30 @@
     <link href="https://fonts.googleapis.com/css?display=swap&family=Arimo:400,400italic" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="image03.gif" />
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png?v=28510195" />
+        <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 85) {
+                return false;
+            }
+        }
+    </script>
+    <!-- skid protection-->
+    <div class="page-bg"></div>
+    <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
     <style>
         html,
         body,
@@ -896,14 +920,14 @@
         #text24 {
             color: #AC4FC6;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
-            text-shadow: 0rem 0rem 2.1875rem #AA5EAA;
+            text-shadow: 0rem 0rem 2.1875rem #FF00FF;
         }
 
         #text24 a:hover {
-            color: rgba(238, 130, 238, 0.502);
+            color: rgba(255, 105, 180, 0.502);
         }
 
         #text24 a {
@@ -917,13 +941,13 @@
         #text25 {
             color: #AC4FC6;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
 
         #text25 a:hover {
-            color: rgba(238, 130, 238, 0.502);
+            color: rgba((255, 105, 180, 0.502);
         }
 
         #text25 a {
@@ -937,13 +961,13 @@
         #text29 {
             color: #AC4FC6;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
 
         #text29 a:hover {
-            color: rgba(238, 130, 238, 0.502);
+            color: rgba(255, 105, 180, 0.502);
         }
 
         #text29 a {
@@ -957,7 +981,7 @@
         #text30 {
             color: #FFFFFF;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
@@ -977,7 +1001,7 @@
         #text23 {
             color: #FFFFFF;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
@@ -997,7 +1021,7 @@
         #text36 {
             color: #FFFFFF;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
@@ -1017,7 +1041,7 @@
         #text27 {
             color: #FFFFFF;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
@@ -1037,7 +1061,7 @@
         #text31 {
             color: #FFFFFF;
             font-family: 'Arimo', sans-serif;
-            font-size: 1.088em;
+            font-size: 0.875em;
             line-height: 1.5;
             font-weight: 400;
         }
